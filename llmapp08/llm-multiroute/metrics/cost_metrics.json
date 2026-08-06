@@ -1911,11 +1911,83 @@
       "input_tokens": 0,
       "output_tokens": 0,
       "total_tokens": 0
+    },
+    {
+      "timestamp": "2026-07-29T06:54:42.923000+00:00",
+      "task_type": "classify",
+      "model": "gemma4:31b",
+      "input_tokens": 83,
+      "output_tokens": 33,
+      "total_tokens": 116
+    },
+    {
+      "timestamp": "2026-07-29T06:56:44.968065+00:00",
+      "task_type": "summarize",
+      "model": "mistral-large-3:675b",
+      "input_tokens": 112,
+      "output_tokens": 105,
+      "total_tokens": 217
+    },
+    {
+      "timestamp": "2026-07-29T06:58:12.969209+00:00",
+      "task_type": "summarize",
+      "model": "mistral-large-3:675b",
+      "input_tokens": 113,
+      "output_tokens": 100,
+      "total_tokens": 213
+    },
+    {
+      "timestamp": "2026-07-29T07:03:00.729613+00:00",
+      "task_type": "summarize",
+      "model": "mistral-large-3:675b",
+      "input_tokens": 126,
+      "output_tokens": 105,
+      "total_tokens": 231
+    },
+    {
+      "timestamp": "2026-07-29T07:03:40.960129+00:00",
+      "task_type": "summarize",
+      "model": "mistral-large-3:675b",
+      "input_tokens": 126,
+      "output_tokens": 105,
+      "total_tokens": 231
+    },
+    {
+      "timestamp": "2026-07-29T07:04:23.234316+00:00",
+      "task_type": "summarize",
+      "model": "mistral-large-3:675b",
+      "input_tokens": 126,
+      "output_tokens": 105,
+      "total_tokens": 231
+    },
+    {
+      "timestamp": "2026-07-29T07:05:30.123578+00:00",
+      "task_type": "summarize",
+      "model": "mistral-large-3:675b",
+      "input_tokens": 126,
+      "output_tokens": 101,
+      "total_tokens": 227
+    },
+    {
+      "timestamp": "2026-07-29T07:27:47.028827+00:00",
+      "task_type": "classify",
+      "model": "gemma4:31b",
+      "input_tokens": 86,
+      "output_tokens": 38,
+      "total_tokens": 124
+    },
+    {
+      "timestamp": "2026-07-29T07:28:10.504384+00:00",
+      "task_type": "classify",
+      "model": "gemma4:31b",
+      "input_tokens": 97,
+      "output_tokens": 39,
+      "total_tokens": 136
     }
   ],
   "summary": {
-    "total_input_tokens": 2483,
-    "total_output_tokens": 1121,
-    "total_requests": 239
+    "total_input_tokens": 3478,
+    "total_output_tokens": 1852,
+    "total_requests": 248
   }
 }
