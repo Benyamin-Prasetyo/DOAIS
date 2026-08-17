@@ -102,10 +102,10 @@ class PIIDetector(Validator):
     """Detects PII (email/phone/SSN/credit card) and redacts it when fixed."""
 
     def validate(self, value: Any, metadata: dict[str, Any]) -> Any:
-        matched = [name for name, pattern in _PII_PATTERNS.items() if pattern.search(value)]
+        matched = [name for name, pattern in _PII_PATTERNS.values() if pattern.search(value)]
         if matched:
             redacted = value
-            for name, pattern in _PII_PATTERNS.items():
+            for name, pattern in _PII_PATTERNS.values():
                 redacted = pattern.sub(f"[REDACTED_{name.upper()}]", redacted)
             return FailResult(
                 error_message=f"PII detected: {matched}",
