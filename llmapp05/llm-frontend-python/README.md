@@ -36,9 +36,9 @@
   
   # To run:
   ## Terminal 1 - Backend
-  cd llm-python && python -m uvicorn app.main:app --port 8080 --reload
+  cd llmapp05\llm-python && python -m uvicorn app.main:app --port 8080 --reload
   
   ## Terminal 2 - Frontend
-  cd llm-frontend-python && python app.py
+  cd llmapp05\llm-frontend-python && python app.py
   
   ## Open http://localhost:5000 

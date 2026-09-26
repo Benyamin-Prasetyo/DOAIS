@@ -50,13 +50,15 @@
   pip install -r requirements.txt
 
   # 2. Set OpenAI API key (used as the evaluation judge LLM)
-  export OPENAI_API_KEY="your-openai-api-key"
+  $env:OPENAI_API_KEY =""
 
   # 3. Make sure the Spring Boot app is running on localhost:8080
 
   # 4. Run all tests
   deepeval test run test_classify.py test_sentiment.py test_summarize.py
   test_intent.py
+
+  python -m deepeval test run test_classify.py test_sentiment.py test_summarize.py test_intent.py
 
   # Or run a single endpoint's tests
   deepeval test run test_classify.py
