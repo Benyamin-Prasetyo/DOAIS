@@ -50,7 +50,7 @@
   pip install -r requirements.txt
 
   # 2. Set OpenAI API key (used as the evaluation judge LLM)
-  export OPENAI_API_KEY="your-openai-api-key"
+  $env:OPENAI_API_KEY = "your-key-here"
 
   # 3. Make sure the Spring Boot app is running on localhost:8080
 
